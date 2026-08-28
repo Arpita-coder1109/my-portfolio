@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpita Rai Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Loader -->
+<div id="loader">Loading...</div>
+
+<!-- Navbar -->
+<header>
+  <h2 class="logo">She_Codes</h2>
+
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#technical-skills">Technical Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+    <button id="themeToggle">🌙</button>
+  </nav>
+
+  <div id="menu-btn">☰</div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container">
+
+    <!-- LEFT -->
+    <div class="left">
+      <h3>Hello, I'm</h3>
+      <h1>Arpita Rai</h1>
+      <h2>And I'm <span id="typing"></span></h2>
+
+      <p class="desc">
+        Aspiring Full Stack Developer | Skilled in HTML, CSS, JavaScript,
+        Node.js, Express.js & Python
+      </p>
+
+      <a href="./resume/Arpita_Resume.pdf" download>
+        <button class="cv-btn">Download Resume</button>
+      </a>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+      <div class="circle">
+        <img src="image/pic2.jpeg" alt="profile">
+      </div>
+
+      <p class="status">🚀 Actively Seeking Opportunities</p>
+
+      <div class="right-buttons">
+        <button class="btn primary" onclick="scrollToSection('projects')">View Projects</button>
+        <button class="btn secondary" onclick="scrollToSection('contact')">Contact Me</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="reveal">
+  <h1>About Me</h1>
+
+  <div class="about-container">
+
+    <div class="about-text">
+      <p>
+        I am a passionate and motivated Computer Science student, expected to graduate in 2028.
+        I have a strong interest in web development and software engineering.
+      </p>
+
+      <p>
+        I have hands-on experience in <span>HTML, CSS, JavaScript, Tailwind, Bootstrap</span>
+        and backend technologies like <span>Node.js and Express.js</span>.
+      </p>
+
+      <p>
+        I am always eager to learn new technologies and work on real-world projects.
+      </p>
+
+      <div class="about-highlights">
+        <span>🚀 Quick Learner</span>
+        <span>💻 Problem Solver</span>
+        <span>📚 Continuous Learner</span>
+      </div>
+    </div>
+
+    <div class="about-info">
+      <p><strong>Name:</strong> Arpita Rai</p>
+      <p><strong>Degree:</strong> B.Tech (CSE), HBTU Kanpur</p>
+      <p><strong>Year:</strong> 3rd Year</p>
+      <p><strong>Location:</strong> Kanpur, India</p>
+      <p><strong>Email:</strong> arpitarai0429@gmail.com</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="technical-skills" class="reveal">
+  <h1>Technical Skills</h1>
+
+  <div class="skills-container">
+
+    <div class="skill-card">
+      <h2>Frontend</h2>
+      <div class="skill-items">
+        <div><i class="fab fa-html5"></i> HTML</div>
+        <div><i class="fab fa-css3-alt"></i> CSS</div>
+        <div><i class="fab fa-js"></i> JavaScript</div>
+        <div><i class="fas fa-wind"></i> Tailwind</div>
+        <div><i class="fab fa-bootstrap"></i> Bootstrap</div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h2>Backend</h2>
+      <div class="skill-items">
+        <div><i class="fab fa-node-js"></i> Node.js</div>
+        <div><i class="fas fa-server"></i> Express.js</div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h2>Programming</h2>
+      <div class="skill-items">
+        <div><i class="fab fa-python"></i> Python</div>
+        <div><i class="fas fa-code"></i> C</div>
+        <div><i class="fab fa-java"></i> Java</div>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <h2>Tools</h2>
+      <div class="skill-items">
+        <div><i class="fab fa-git-alt"></i> Git</div>
+        <div><i class="fab fa-github"></i> GitHub</div>
+        <div><i class="fas fa-code"></i> VS Code</div>
+        <div><i class="fas fa-database"></i> SQL</div>
+        <div><i class="fas fa-database"></i> MongoDB</div>
+        <div><i class="fas fa-paper-plane"></i> Postman</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="reveal">
+  <h1>Projects</h1>
+
+  <div class="projects-container">
+
+    <!-- PROJECT 1 - InternHub -->
+<div class="project-card">
+
+  <img src="image/internhub.png" alt="InternHub">
+
+  <div class="project-content">
+
+    <h3>InternHub</h3>
+
+    <p class="desc">
+      A full-stack MERN web application designed to help users explore and manage their internship opportunities.
+    </p>
+
+    <div class="project-details">
+
+      <p>
+        <strong>🔧 Technologies:</strong>
+        React.js, Vite, JavaScript, CSS, Node.js, Express.js, MongoDB
+      </p>
+
+      <p><strong>⚙️ Features:</strong></p>
+
+      <ul>
+        <li>User Registration and Login</li>
+        <li>Secure Authentication</li>
+        <li>Internship-related Platform Interface</li>
+        <li>Frontend and Backend Integration</li>
+        <li>Responsive User Interface</li>
+      </ul>
+
+      <p>
+        <strong>🎯 Purpose:</strong>
+        Helps users explore and manage internship opportunities.
+      </p>
+
+    </div>
+
+    <div class="project-links">
+
+      <a href="https://internhub-app-d9xq.vercel.app/"
+         target="_blank">
+        Live Demo
+      </a>
+
+      <a href="https://github.com/Arpita-coder1109/InternHub"
+         target="_blank">
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+</div>
+       
+
+    <!-- PROJECT 2 - AI Smart Attendance -->
+<div class="project-card">
+
+  <img src="image/AI-Smart-Attendance.jpeg" alt="AI Smart Attendance System">
+
+  <div class="project-content">
+
+    <h3>AI Smart Attendance System</h3>
+
+    <p class="desc">
+      An AI-powered desktop application that automates attendance management
+      using real-time face recognition.
+    </p>
+
+    <div class="project-details">
+
+      <p>
+        <strong>🔧 Technologies:</strong>
+        Python, OpenCV, face_recognition, Tkinter, OpenPyXL
+      </p>
+
+      <p><strong>⚙️ Features:</strong></p>
+
+      <ul>
+        <li>Real-time face recognition using a webcam</li>
+        <li>Automatic attendance marking</li>
+        <li>Duplicate attendance prevention</li>
+        <li>Face database management</li>
+        <li>Attendance records stored in Excel</li>
+        <li>User-friendly graphical interface</li>
+        <li>Email notifications</li>
+      </ul>
+
+      <p>
+        <strong>🎯 Purpose:</strong>
+        Automates attendance management using AI-based face recognition.
+      </p>
+
+    </div>
+
+    <div class="project-links">
+
+      <a href="https://github.com/Arpita-coder1109/AI-Smart-Attendance"
+         target="_blank">
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- EDUCATION -->
+<section id="education" class="reveal">
+  <h1>Education</h1>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>B.Tech (Computer Science & Engineering)</h3>
+        <p>Harcourt Butler Technical University, Kanpur</p>
+        <span>2024 - 2028 | CGPA: 7.49</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Senior Secondary (12th)</h3>
+        <p>International Hindu School, Varanasi</p>
+        <span>2023 | 71.6%</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>Secondary (10th)</h3>
+        <p>International Hindu School, Varanasi</p>
+        <span>2021 | 80.4%</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="reveal">
+  <h1>Contact Me</h1>
+
+  <div class="contact-info">
+    <p>Name: Arpita Rai</p>
+    <p>Location: HBTU Kanpur(U.P.)</p>
+    <p>Email: arpitarai0429@gmail.com</p>
+    <p>Phone: +91 7061689267</p>
+  </div>
+
+  <div class="contact-socials">
+    <a href="https://www.linkedin.com/in/arpita-rai04">LinkedIn</a>
+    <a href="https://github.com/Arpita-coder1109">GitHub</a>
+    <a href="mailto:arpitarai0429@gmail.com">Email</a>
+  </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section id="contact-form" class="reveal">
+  <h2>Contact Form</h2>
+
+  <form id="contactForm">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+</section>
+
+<!--footer-->
+<footer>
+  <div class="cointainer"></div>
+</footer>
+<!-- Scroll Top -->
+<button id="topBtn">↑</button>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
