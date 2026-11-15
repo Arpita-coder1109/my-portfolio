@@ -92,8 +92,9 @@ section h1 {
   font-size: 55px;
   margin: 10px 0;
   background: linear-gradient(90deg, #A06E46, #ffffff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
 
 .left h2 {
@@ -112,14 +113,16 @@ section h1 {
 
 /* CV BUTTON */
 .cv-btn {
+  display: inline-block;
   margin-top: 20px;
   padding: 10px 22px;
-  border-radius: 25px;
+  border-radius: 20px;
   border: none;
-  background: #ffffff;
-  color: #000;
+  text-decoration: none;
   cursor: pointer;
-  transition: 0.3s;
+  background: white;
+  color: #333;
+  font-size: 16px;
 }
 
 .cv-btn:hover {
